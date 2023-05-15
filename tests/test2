@@ -14,9 +14,6 @@ class Numbers {
 		int res;
         int i;
 		if (!(n<k)) {
-		
-			i = 1;
-			res = +1; 
 			while (i <= k) {
 				res = res * (n-k+i) / i;
 			}
