@@ -49,6 +49,3 @@ ex"
 "\"\"\"regex\"\""
 "\"\"\"regex\"\"
 
-/*test
-holy shit it erks *****/*/
-/** test**/*/

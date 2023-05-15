@@ -9,18 +9,11 @@ class NumberDemo {
 	}
 }
 
-// The following code contains these legitimage syntax usage:
-// - Variable declarations
-// - Unary and complicated binary arithmetic operations
-// - While loop
 class Numbers {
 	public int choose(int n, int k) {
 		int res;
         int i;
 		if (!(n<k)) {
-			// n! / (k! (n-k)!)
-			i = 1;
-			res = +1; // just to test unary +
 			while (i <= k) {
 				res = res * (n-k+i) / i;
 			}
